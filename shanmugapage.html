@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Details</title>
+	<style type="text/css">
+		body
+		{
+			background: lightgreen;
+		}	
+		img
+		{
+			border-radius: 50%;
+		}
+
+		#container
+		{
+			display: flex;
+			flex-direction: rows;
+
+		}
+		
+	</style>
+		
+</head>
+<body>
+	<div >
+	 <h1>SHANMUGASUNDAR E</h1>
+	 <h2>7299391197</h2>
+	 <h3>shanmugasundar.robotics@gmail.com</h3>
+	 <button onclick="myDetail()">Discription</button><br>
+	 <img src="C:\Users\shanmugaSundar E\OneDrive\Desktop\shanmuga.jpg" width="350px" height="450px" alt="photo">
+	 
+	 
+	 <button onclick="showDetails()">Education</button>
+	 <button onclick="giveDetails()">Career</button>
+	 <button onclick="showSkills()">skills</button>
+	 <button onclick="showCirtificate()">Cirtificate</button>
+	 
+	 <div id="output"></div>
+   </div>
+  <!--  <span>
+   	 <div id="container">
+   	 	<H2>Discription</H2>
+   	 	<p>
+   	 		I am from a non IT sector and learnt full stack developer skills fron an institute and waiting for an opportunity to show my skill and knowledge
+   	 		in the IT sector
+   	 	</p>
+   	 </div>
+   </span>
+	 -->
+
+	<script type="text/javascript">
+
+		function myDetail() 
+		{
+			document.getElementById('output').innerHTML=`<h3>Ambitious and adaptable professional with a background in [Non-IT Sector] seeking a career transition into the IT sector as a Full Stack Developer. Leveraging strong problem-solving skills, a passion for technology, and a foundation of transferable skills to contribute effectively to IT projects. Committed to continuous learning and growth in the dynamic field of software development
+
+			                                               </h3>`
+		}
+
+		document.write
+		function showDetails() 
+		{
+			document.getElementById('output').innerHTML=`<h3>Diploma in Electronics Robotics,
+														Murugappa Polytechnic College,
+															2012-2015</h3>
+													  <h3>Bachelor Of Engineering(EEE),
+													    St. Peret's Institute of Research and Higher Education,
+													        2022-Present</h3>`
+		}
+		document.write
+		function giveDetails() 
+		{
+			document.getElementById('output').innerHTML=`<h3>Royal Enfield <br>
+			                                               Associate Engineer<br>
+			                                               2016-Present<br>
+			                                               </h3>`
+		}
+		document.write
+		function showSkills() 
+		{
+			document.getElementById('output').innerHTML=`<h3>HTML, CSS, Javascript<br>
+															done project myresume webpage project
+															using HTML,CSS, Javascript<br>
+			                                                Frame Work:React JS<br>
+			                                                Backend Langauge:Ptyhon<br>
+			                                                Database Query Langauge:SQL(Oracal,MYSQL)
+
+			                                               </h3>`
+		}
+
+		document.write
+		function showCirtificate() 
+		{
+			document.getElementById('output').innerHTML=`<h3>Full Stack Developer(june2023-oct2023)
+			<h4>Completed full stack developer course at Besant Technologies, Anna Nager, Chennai 
+			there I studied about HTML, CSS, Javascript. How to creat a web page and functions using java script.</h4>
+
+			<h4>For frame work learnt about React JS using Visual studio codes. In react js I learnt about life cycle components, class components, functional components, routers, redux.</h4>
+
+			<h4>For Backend programming Langauge Ptyhon and learnt about oops, file handling, lists, sets, tuple, etc.</h4>
+
+			<h4>For Database SQL(Structural Qurey Langauge) using oracal learnt about schema, creating primary keys and forgin keys, drl,ddl,dml,dcl,tcl,views,subqueries,joints,analytical function</h4>`
+			                                               
+		}
+
+
+
+	</script>
+</body>
+</html>
